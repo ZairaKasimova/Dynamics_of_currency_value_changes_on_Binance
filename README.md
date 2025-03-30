@@ -1,0 +1,1 @@
+# Dynamics_of_currency_value_changes_on_Binance
