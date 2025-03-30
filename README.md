@@ -1,1 +1,8 @@
-# Dynamics_of_currency_value_changes_on_Binance
+# Динамика изменения стоимости валюты на Binance
+
++ **rate.py** - отображает динамику изменения стоимости валюты на сайте Binance в течение 20 секунд после запуска программы с помощью графика (график отобразится через 20 секунд после запуска программы, так как программе нужно собрать стоимости валюты каждую секунду для построения графика). Чтобы запустить данную программу, нужно установить библиотеки requests, numpy и matplotlib. Если запускать данную программу как основную, то отобразится динамика изменения стоимости биткоина в долларах. Данная программа может также использоваться как библиотека (например, если в файле, в котором импортируется данная программа, вызвать функцию get_rate() с аргументом 'ETHUSDT', то отобразится динамика изменения стоимости эфириума в долларах в виде графика). 
+
+
+# Dynamics of currency value changes on Binance
+
++ **rate.py** - displays the dynamics of changes in the value of a currency on the Binance website within 20 seconds after launching the program using a graph (the graph will be displayed 20 seconds after launching the program, because the program needs to collect the value of the currency every second to build a graph). To run this program, you need to install the requests, numpy and matplotlib libraries. If you run this program as the main one, you will see the dynamics of changes in the value of bitcoin in dollars. This program can also be used as a library (for example, if you call the get_rate() function with the 'ETHUSDT' argument in the file in which this program is imported, the dynamics of changes in the value of ethereum in dollars will be displayed as a graph).
